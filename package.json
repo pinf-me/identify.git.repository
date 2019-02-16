@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "main": "index.js",
+    "bin": {
+        "identify.git.repository": "index.js"
+    },
+    "scripts": {
+        "test": "mocha test.js",
+        "tdd": "nodemon --watch index.js --watch test.js --exec 'npm test'"
+    },
+    "devDependencies": {
+        "mocha": "^5.2.0",
+        "nodemon": "^1.18.9",
+        "runbash": "0.0.8"
+    },
+    "dependencies": {
+        "lodash": "^4.17.11",
+        "minimist": "^1.2.0"
+    }
+}

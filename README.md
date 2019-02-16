@@ -11,7 +11,7 @@ Usage
 
     cd <GitRepository>
 
-    identify.git.repository > identity.json
+    identify.git.repository from .git > identity.json
 
     cat identity.json
 

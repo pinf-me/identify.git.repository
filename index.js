@@ -57,10 +57,12 @@ exports.docFromWorkingDirectory = function (baseDir, options) {
     });
 
     const doc = {
-        canonical: canonicalId
+        id: {
+            canonical: canonicalId
+        }
     }
     if (originUrl) {
-        doc.aliases = [
+        doc.id.aliases = [
             originUrl
         ];
     }

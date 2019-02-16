@@ -23,10 +23,12 @@ Usage
 
 ```
 {
-    "canonical": "a70b21d6146f9a555699e9257a5a2b0a99207f63",
-    "aliases": [
-        "git@github.com:pinf-me/identify.git.repository.git"
-    ]
+    "id": {
+        "canonical": "a70b21d6146f9a555699e9257a5a2b0a99207f63",
+        "aliases": [
+            "git@github.com:pinf-me/identify.git.repository.git"
+        ]
+    }
 }
 ```
 
